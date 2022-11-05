@@ -9,7 +9,7 @@
 
 img{
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid white;
   width: 200;
   height: 300;
   margin: 40px auto 0px auto;
@@ -32,6 +32,7 @@ img{
   align-items: center;
   width: 100%;
   overflow-x: hidden;
+  background-position: center;
   /* float: left;
   z-index: 100;
   border: 3px;
@@ -58,7 +59,7 @@ a:link {
 }
 
 a:visited {
-  color: blueviolet;
+  color: white;
 }
 
 a:hover {
@@ -90,4 +91,10 @@ a:link, a:visited {
   color: chocolate;
   font-weight: 800;
   font-family: Verdana, "Times New Roman", Tahoma, sans-serif;
+}
+
+#date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
