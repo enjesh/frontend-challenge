@@ -22,6 +22,7 @@ img{
   height: 50%;
   margin: 15px auto;
 }
+
 .body {
   font-family:Helvetica Neue, Arial, sans-serif, "Times New Roman";
   font-size: 1rem;
@@ -48,13 +49,6 @@ img{
 .menu {
   color: black;
   font-size: medium;
-}
-
-.profile {  
-  /* border-radius: 50%;
-  border: 5px;
-  border-style: solid;
-  border-color: rgb(212, 187, 187);   */
 }
 
 a:link {
