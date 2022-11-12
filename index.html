@@ -8,19 +8,20 @@
         <title>My portfolio site</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script> -->
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fontawesome.com/v4/icons/"/>
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body class="body" id="page-top">
+    <body>
         <!-- Navigation-->
         <div class="side-nav" id="sideNav">          
-            <div class="nav-img">
-                <img src="assets/img/profile.jpg" width="200px" height="300px" alt="profile image">
-            </div>
+            
+                <img src="assets/img/profile.jpg" alt="profile image" class="nav-img">
+            
             <div class="menu" id="menu">   
                 <a href="#about">ABOUT</a>
                 <a href="#experience">EXPERIENCE</a>
@@ -33,132 +34,143 @@
        
         <!-- Page Content-->        
         <div class="main" id="content">
-
+            <div class="section">
+                
             <!-- About -->
-            <div class="title 1" id="about">
-                <h1>ELIZABETH <span class="name">KIHUHA</span></h1>
-                <h2>Langata, 00100, Nairobi-Kenya 0724577713 enjesh@gmail.com</h2>
-                <p>
-                    I am a Cloud Engineer
-                    In trying to make sense of this world, i bumped into tech.
-                    Now i cannot peel myself away from it and i am falling in love with tech everyday.
-                    I find everything exciting. I am currently learning Python, Linux, and SQL.
-                    When i am not talking to computers i am busy being a hook ninjette.
-                    I make beautiful, handmade items with yarn.
-                    I am open to Junior roles and internship opportuinities.
-                    I am mostly interested in remote work.
-                    I consider myself "forever a student" eager to build and problem solve. My curious nature
-                    Got me here.
-                    Passion to understand this fast paced, ever changing tech world will keep me motivated and fueled
-                    I know it will not be an easy journey but i am ready and preparing for it.
-                </p>
+                <div class="section1" id="about">
+                    <h1>ELIZABETH <span class="name">KIHUHA</span></h1>
+                    <div class="subheading">
+                        Langata . 00100 Nairobi-Kenya . 0724577713
+                        <a href="email">enjesh@gmail.com</a>
+                    </div>
+                    <p>
+                        I am a Cloud Engineer
+                        In trying to make sense of this world, i bumped into tech.
+                        Now i cannot peel myself away from it and i am falling in love with tech everyday.
+                        I find everything exciting. I am currently learning Python, Linux, and SQL.
+                        When i am not talking to computers i am busy being a hook ninjette.
+                        I make beautiful, handmade items with yarn.
+                        I am open to Junior roles and internship opportuinities.
+                        I am mostly interested in remote work.
+                        I consider myself "forever a student" eager to build and problem solve. My curious nature
+                        Got me here.
+                        Passion to understand this fast paced, ever changing tech world will keep me motivated and fueled
+                        I know it will not be an easy journey but i am ready and preparing for it.
+                    </p>
 
-                <div>
-                    <a class="fa fa-facebook" href="https://www.linkedin.com/in/elizabeth-kihuha"></a>
-                    <a class="fa fa-twitter"  href="https://www.linkedin.com/in/elizabeth-kihuha"></a>
-                    <a class="fa fa-github" href="https://www.linkedin.com/in/elizabeth-kihuha"></a>
-                    <a class="fa fa-linkedin" href="https://www.linkedin.com/in/elizabeth-kihuha"></a>
-
+                        <div class="icons">
+                            <a class="fa fa-facebook" href="https://web.facebook.com/enjesh">Facebook</a>
+                            <a class="fa fa-twitter" href="https://twitter.com/enjesh">Twitter</a>
+                            <a class="fa fa-github" href="https://github.com/enjesh">GitHub</a>
+                            <a class="fa fa-linkedin" href="https://www.linkedin.com/in/elizabeth-kihuha">linkedin</a>
+                            <!-- <i class="fa fa-html5" aria-hidden="true"></i> -->
+                        </div>
                 </div>
+            </div>    
+        </div>
+
+    
+
+        <!-- Experience -->
+        <div class="section2" id="experience">            
+            <div>
+                <h1>EXPERIENCE</h1>
+                <div><h3>Devops Engineer Intern</h3></div>
+                <div id="date">October 2022</div>
+                <div><h5>GetINNOTized</h5></div>
             </div>
 
-        
-
-            <!-- Experience -->
-            <div class="title 2" id="experience">
-                <div>
-                    <h1>EXPERIENCE</h1>
-                    <div><h3>Devops Engineer Intern</h3></div>
-                        <div id="date">October 2022</div>
-                    <div><h5>GetINNOTized</h5></div>
-                </div>
-
-                <div>
-                    <div><h3>Women in Digital Spaces</h3></div>
-                        <div id="date">June 2022</div>
-                    <div><h5>Azubi Africa</h5></div>
+            <div>
+                <div><h3>Women in Digital Spaces</h3></div>
+                <div id="date">June 2022</div>
+                <div><h5>Azubi Africa</h5></div>                
                     <ul>
                         <li>Event planning</li>
                         <li>Moderator</li>
                         <li>Content creation</li>                        
                     </ul>
-                </div>
+            </div>
 
-                <div>
-                    <div><h3>Volunteer, Kenya Rugby Union</h3></div>
-                        <div id="date">August 2006 - August 2011</div>
-                    <div><h5>Nairobi-Kenya</h5></div>
+            <div>
+                <div><h3>Volunteer, Kenya Rugby Union</h3></div>
+                <div id="date">August 2006 - August 2011</div>
+                <div><h5>Nairobi-Kenya</h5></div>
                     <ul>
                         <li>Ticketing</li>
                         <li>Conduct fitness tests</li>
                         <li>Organize tournaments</li>
                         <li>Transport and accomodation manager</li>
                     </ul>
-                </div>
+            </div>
 
-                <div>
-                    <div><h3>Board Member, Rare Disorders Kenya</h3></div>
-                        <div id="date">October 2022</div>
-                    <div><h5>Nairobi-Kenya</h5></div>
+            <div>
+                <div><h3>Board Member, Rare Disorders Kenya</h3></div>
+                <div id="date">October 2022</div>
+                <div><h5>Nairobi-Kenya</h5></div>
                     <ul>
                         <li>Create awareness</li>
                         <li>Source for funding and sponsors</li>
                         <li>Organize events</li>
                         <li>Advocate for policy change</li>
                     </ul>
-                </div>
             </div>
-
-            <!-- Education -->
-            <div class="title 3" id="education">
-                <h1>EDUCATION</h1>
-                <div>
-                    <div><h3>Bachelor of Science (Sports Science)</h3></div>
-                        <div id="date">December 2009</div>
-                    <div><h5>Kenyatta University</h5></div>
-                </div>
-
-                <div>
-                    <div><h3>AWS Certified Cloud Practitioner (Restart Graduate)</h3></div>
-                        <div id="date">May 2022</div>
-                    <div><h5>Azubi Africa</h5></div>
-                </div>
-
-                <div>
-                    <div><h3>AWS Certified Solutions Architect Associate</h3></div>
-                        <div id="date">August 2022</div>
-                    <div><h5>Azubi Africa</h5></div>
-                </div>                
-            </div>
-
-            <!-- Skills -->
-            <div class="title 4" id="skills">
-                <h1>SKILLS</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint beatae mollitia vero, at, quam architecto laborum
-                    debitis ea commodi ipsum nihil dolor eveniet asperiores,
-                    soluta unde sapiente sunt facilis doloremque.
-                </p>
-            </div>
-
-            <!-- Interests -->
-            <div class="title 5" id="interests">
-                <h1>INTERESTS</h1>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Dolore optio rerum ratione, nemo distinctio omnis neque blanditiis
-                    odio repellat quo tempore dignissimos excepturi deleniti?
-                    At unde impedit maiores eos magnam.
-                </p>
-            </div>
-
-            <!-- Awards -->
-            <div class="title 6" id="awards">
-                <h1>AWARDS</h1>
-
-            </div>
+            
         </div>
 
+        <!-- Education -->
+        <div class="section3" id="education">            
+            <h1>EDUCATION</h1>
+            <div>
+                <div><h3>Bachelor of Science (Sports Science)</h3></div>
+                <div id="date">December 2009</div>
+                <div><h5>Kenyatta University</h5></div>
+            </div>
+
+            <div>
+                <div><h3>AWS Certified Cloud Practitioner (Restart Graduate)</h3></div>
+                <div id="date">May 2022</div>
+                <div><h5>Azubi Africa</h5></div>
+            </div>
+
+            <div>
+                <div><h3>AWS Certified Solutions Architect Associate</h3></div>
+                <div id="date">August 2022</div>
+                <div><h5>Azubi Africa</h5></div>
+            </div>                
+            
+        </div>
+
+        <!-- Skills -->
+        <div class="section4" id="skills">            
+            <h1>SKILLS</h1>
+            <div>
+                <i class="fa fa-html5"></i>
+                <i class="fa fa-css"></i>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sint beatae mollitia vero, at, quam architecto laborum
+                debitis ea commodi ipsum nihil dolor eveniet asperiores,
+                soluta unde sapiente sunt facilis doloremque.
+            </p>
+            
+        </div>
+
+        <!-- Interests -->
+        <div class="section5" id="interests">            
+            <h1>INTERESTS</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dolore optio rerum ratione, nemo distinctio omnis neque blanditiis
+                odio repellat quo tempore dignissimos excepturi deleniti?
+                At unde impedit maiores eos magnam.
+            </p>            
+        </div>
+
+        <!-- Awards -->
+        <div class="section6" id="awards">            
+            <h1>AWARDS</h1>            
+        </div>
+                    
     </body>
 </html>

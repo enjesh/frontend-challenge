@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-img{
+/* img{
   border-radius: 50%;
   border: 5px solid white;
   width: 200;
@@ -15,15 +15,19 @@ img{
   margin: 40px auto 0px auto;
   display: block;
   background-color: gray;
-}
+} */
 
 .nav-img {
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 40px;
+  margin-top: 40px;
   width: 70%;
-  height: 50%;
-  margin: 15px auto;
+  height: 40%;
+  
 }
 
-.body {
+/* .body {
   font-family:Helvetica Neue, Arial, sans-serif, "Times New Roman";
   font-size: 1rem;
   font-weight: 400;
@@ -33,18 +37,28 @@ img{
   width: 100%;
   overflow-x: hidden;
   background-position: center;
-  /* float: left;
+  float: left;
   z-index: 100;
   border: 3px;
-  border-radius: 5px; */
-}
+  border-radius: 5px;
+} */
 
 .side-nav {
+  top: 0;
+  left: 0;
   width: 25%;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(71, 141, 141);
   font-size:  medium;
-  position: fixed;  
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+}
+
+.section {
+  height: 90vh;
+
+
 }
 
 .menu {
@@ -52,10 +66,10 @@ img{
   font-size: medium;
 }
 
-a:link {
+.fa {
   color: rgb(51, 17, 34);
   text-decoration: none;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 a:visited {
@@ -77,14 +91,17 @@ a:link, a:visited {
 }
 
 .main {
-  background-color: white;
+  padding: 130px 220px;
+  margin-left: 160px;
+
+  /* background-color: white;
   color: black;
   text-align: center;
   margin-left: 280px;
   float: left;
   width: 1000px;
   height: auto;
-  padding: 25px;
+  padding: 25px; */
 }
 
 .name {
@@ -98,3 +115,4 @@ a:link, a:visited {
   align-items: center;
   justify-content: space-between;
 }
+
