@@ -66,10 +66,28 @@
   font-size: medium;
 }
 
-.fa {
+/* .fa {
   color: rgb(51, 17, 34);
   text-decoration: none;
-  /* background-color: transparent; */
+  background-color: transparent;
+} */
+
+.fa-facebook {
+  color: black;
+  align-items: right;
+  size: 20px;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-github {
+  color: black;
 }
 
 a:visited {
@@ -95,10 +113,10 @@ a:link, a:visited {
   margin-left: 160px;
 
   /* background-color: white;
+  float: left;
   color: black;
   text-align: center;
   margin-left: 280px;
-  float: left;
   width: 1000px;
   height: auto;
   padding: 25px; */
